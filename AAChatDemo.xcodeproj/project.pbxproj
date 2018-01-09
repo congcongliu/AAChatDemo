@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBCD6FB12004F0070053C65F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FB02004F0070053C65F /* AppDelegate.m */; };
+		BBCD6FB42004F0070053C65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FB32004F0070053C65F /* ViewController.m */; };
+		BBCD6FB72004F0070053C65F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FB52004F0070053C65F /* Main.storyboard */; };
+		BBCD6FB92004F0070053C65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FB82004F0070053C65F /* Assets.xcassets */; };
+		BBCD6FBC2004F0070053C65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FBA2004F0070053C65F /* LaunchScreen.storyboard */; };
+		BBCD6FBF2004F0070053C65F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FBE2004F0070053C65F /* main.m */; };
+		BBCD700F2004F05D0053C65F /* AAHighchartsMore.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FC82004F05D0053C65F /* AAHighchartsMore.js */; };
+		BBCD70102004F05D0053C65F /* AADrilldown.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FC92004F05D0053C65F /* AADrilldown.js */; };
+		BBCD70112004F05D0053C65F /* AAJQueryLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FCA2004F05D0053C65F /* AAJQueryLibrary.js */; };
+		BBCD70122004F05D0053C65F /* AAHighchartsLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FCB2004F05D0053C65F /* AAHighchartsLibrary.js */; };
+		BBCD70132004F05D0053C65F /* AAFunnel.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FCC2004F05D0053C65F /* AAFunnel.js */; };
+		BBCD70142004F05D0053C65F /* AAHighcharts-3d.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FCD2004F05D0053C65F /* AAHighcharts-3d.js */; };
+		BBCD70152004F05D0053C65F /* AAChartView.html in Resources */ = {isa = PBXBuildFile; fileRef = BBCD6FCE2004F05D0053C65F /* AAChartView.html */; };
+		BBCD70162004F05D0053C65F /* AAAreaspline.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FD22004F05D0053C65F /* AAAreaspline.m */; };
+		BBCD70172004F05D0053C65F /* AALabels.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FD42004F05D0053C65F /* AALabels.m */; };
+		BBCD70182004F05D0053C65F /* AASeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FD72004F05D0053C65F /* AASeries.m */; };
+		BBCD70192004F05D0053C65F /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FD82004F05D0053C65F /* AAXAxis.m */; };
+		BBCD701A2004F05D0053C65F /* AAPlotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FDA2004F05D0053C65F /* AAPlotOptions.m */; };
+		BBCD701B2004F05D0053C65F /* AADataLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FDB2004F05D0053C65F /* AADataLabels.m */; };
+		BBCD701C2004F05D0053C65F /* AALine.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FDC2004F05D0053C65F /* AALine.m */; };
+		BBCD701D2004F05D0053C65F /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FDF2004F05D0053C65F /* AATooltip.m */; };
+		BBCD701E2004F05D0053C65F /* AASubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FE22004F05D0053C65F /* AASubtitle.m */; };
+		BBCD701F2004F05D0053C65F /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FE32004F05D0053C65F /* AAYAxis.m */; };
+		BBCD70202004F05D0053C65F /* AAColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FE82004F05D0053C65F /* AAColumn.m */; };
+		BBCD70212004F05D0053C65F /* AAPlotLinesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FE92004F05D0053C65F /* AAPlotLinesElement.m */; };
+		BBCD70222004F05D0053C65F /* AAOptions3d.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FEB2004F05D0053C65F /* AAOptions3d.m */; };
+		BBCD70232004F05D0053C65F /* AAStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FED2004F05D0053C65F /* AAStyle.m */; };
+		BBCD70242004F05D0053C65F /* AABar.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FEE2004F05D0053C65F /* AABar.m */; };
+		BBCD70252004F05D0053C65F /* AATitle.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FEF2004F05D0053C65F /* AATitle.m */; };
+		BBCD70262004F05D0053C65F /* AAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FF22004F05D0053C65F /* AAOptions.m */; };
+		BBCD70272004F05D0053C65F /* AAArea.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FF32004F05D0053C65F /* AAArea.m */; };
+		BBCD70282004F05D0053C65F /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FF42004F05D0053C65F /* AASeriesElement.m */; };
+		BBCD70292004F05D0053C65F /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FF52004F05D0053C65F /* AAAnimation.m */; };
+		BBCD702A2004F05D0053C65F /* AALegend.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FF62004F05D0053C65F /* AALegend.m */; };
+		BBCD702B2004F05D0053C65F /* AAMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FF82004F05D0053C65F /* AAMarker.m */; };
+		BBCD702C2004F05D0053C65F /* AASpline.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FFC2004F05D0053C65F /* AASpline.m */; };
+		BBCD702D2004F05D0053C65F /* AAItemStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FFD2004F05D0053C65F /* AAItemStyle.m */; };
+		BBCD702E2004F05D0053C65F /* AAPie.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD6FFE2004F05D0053C65F /* AAPie.m */; };
+		BBCD702F2004F05D0053C65F /* AAChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD70032004F05D0053C65F /* AAChart.m */; };
+		BBCD70302004F05D0053C65F /* AAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD70052004F05D0053C65F /* AAChartView.m */; };
+		BBCD70312004F05D0053C65F /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD70072004F05D0053C65F /* AAChartModel.m */; };
+		BBCD70322004F05D0053C65F /* AAJsonConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD70082004F05D0053C65F /* AAJsonConverter.m */; };
+		BBCD70332004F05D0053C65F /* AAOptionsConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD700C2004F05D0053C65F /* AAOptionsConstructor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBCD6FAC2004F0070053C65F /* AAChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCD6FAF2004F0070053C65F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBCD6FB02004F0070053C65F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBCD6FB22004F0070053C65F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBCD6FB32004F0070053C65F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBCD6FB62004F0070053C65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBCD6FB82004F0070053C65F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBCD6FBB2004F0070053C65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBCD6FBD2004F0070053C65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCD6FBE2004F0070053C65F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBCD6FC52004F0250053C65F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BBCD6FC82004F05D0053C65F /* AAHighchartsMore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAHighchartsMore.js; sourceTree = "<group>"; };
+		BBCD6FC92004F05D0053C65F /* AADrilldown.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AADrilldown.js; sourceTree = "<group>"; };
+		BBCD6FCA2004F05D0053C65F /* AAJQueryLibrary.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAJQueryLibrary.js; sourceTree = "<group>"; };
+		BBCD6FCB2004F05D0053C65F /* AAHighchartsLibrary.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAHighchartsLibrary.js; sourceTree = "<group>"; };
+		BBCD6FCC2004F05D0053C65F /* AAFunnel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAFunnel.js; sourceTree = "<group>"; };
+		BBCD6FCD2004F05D0053C65F /* AAHighcharts-3d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "AAHighcharts-3d.js"; sourceTree = "<group>"; };
+		BBCD6FCE2004F05D0053C65F /* AAChartView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AAChartView.html; sourceTree = "<group>"; };
+		BBCD6FD02004F05D0053C65F /* AAOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions.h; sourceTree = "<group>"; };
+		BBCD6FD12004F05D0053C65F /* AAArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAArea.h; sourceTree = "<group>"; };
+		BBCD6FD22004F05D0053C65F /* AAAreaspline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAreaspline.m; sourceTree = "<group>"; };
+		BBCD6FD32004F05D0053C65F /* AATitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATitle.h; sourceTree = "<group>"; };
+		BBCD6FD42004F05D0053C65F /* AALabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALabels.m; sourceTree = "<group>"; };
+		BBCD6FD52004F05D0053C65F /* AAStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAStyle.h; sourceTree = "<group>"; };
+		BBCD6FD62004F05D0053C65F /* AABar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABar.h; sourceTree = "<group>"; };
+		BBCD6FD72004F05D0053C65F /* AASeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeries.m; sourceTree = "<group>"; };
+		BBCD6FD82004F05D0053C65F /* AAXAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAXAxis.m; sourceTree = "<group>"; };
+		BBCD6FD92004F05D0053C65F /* AAOptions3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions3d.h; sourceTree = "<group>"; };
+		BBCD6FDA2004F05D0053C65F /* AAPlotOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotOptions.m; sourceTree = "<group>"; };
+		BBCD6FDB2004F05D0053C65F /* AADataLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADataLabels.m; sourceTree = "<group>"; };
+		BBCD6FDC2004F05D0053C65F /* AALine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALine.m; sourceTree = "<group>"; };
+		BBCD6FDD2004F05D0053C65F /* AAMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMarker.h; sourceTree = "<group>"; };
+		BBCD6FDE2004F05D0053C65F /* AALegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALegend.h; sourceTree = "<group>"; };
+		BBCD6FDF2004F05D0053C65F /* AATooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATooltip.m; sourceTree = "<group>"; };
+		BBCD6FE02004F05D0053C65F /* AAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimation.h; sourceTree = "<group>"; };
+		BBCD6FE12004F05D0053C65F /* AASeriesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeriesElement.h; sourceTree = "<group>"; };
+		BBCD6FE22004F05D0053C65F /* AASubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASubtitle.m; sourceTree = "<group>"; };
+		BBCD6FE32004F05D0053C65F /* AAYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAYAxis.m; sourceTree = "<group>"; };
+		BBCD6FE42004F05D0053C65F /* AAPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPie.h; sourceTree = "<group>"; };
+		BBCD6FE52004F05D0053C65F /* AAItemStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAItemStyle.h; sourceTree = "<group>"; };
+		BBCD6FE62004F05D0053C65F /* AASpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASpline.h; sourceTree = "<group>"; };
+		BBCD6FE72004F05D0053C65F /* AAChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChart.h; sourceTree = "<group>"; };
+		BBCD6FE82004F05D0053C65F /* AAColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColumn.m; sourceTree = "<group>"; };
+		BBCD6FE92004F05D0053C65F /* AAPlotLinesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotLinesElement.m; sourceTree = "<group>"; };
+		BBCD6FEA2004F05D0053C65F /* AAXAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAXAxis.h; sourceTree = "<group>"; };
+		BBCD6FEB2004F05D0053C65F /* AAOptions3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions3d.m; sourceTree = "<group>"; };
+		BBCD6FEC2004F05D0053C65F /* AASeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeries.h; sourceTree = "<group>"; };
+		BBCD6FED2004F05D0053C65F /* AAStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStyle.m; sourceTree = "<group>"; };
+		BBCD6FEE2004F05D0053C65F /* AABar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABar.m; sourceTree = "<group>"; };
+		BBCD6FEF2004F05D0053C65F /* AATitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATitle.m; sourceTree = "<group>"; };
+		BBCD6FF02004F05D0053C65F /* AALabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALabels.h; sourceTree = "<group>"; };
+		BBCD6FF12004F05D0053C65F /* AAAreaspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAreaspline.h; sourceTree = "<group>"; };
+		BBCD6FF22004F05D0053C65F /* AAOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions.m; sourceTree = "<group>"; };
+		BBCD6FF32004F05D0053C65F /* AAArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAArea.m; sourceTree = "<group>"; };
+		BBCD6FF42004F05D0053C65F /* AASeriesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeriesElement.m; sourceTree = "<group>"; };
+		BBCD6FF52004F05D0053C65F /* AAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAnimation.m; sourceTree = "<group>"; };
+		BBCD6FF62004F05D0053C65F /* AALegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALegend.m; sourceTree = "<group>"; };
+		BBCD6FF72004F05D0053C65F /* AATooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATooltip.h; sourceTree = "<group>"; };
+		BBCD6FF82004F05D0053C65F /* AAMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMarker.m; sourceTree = "<group>"; };
+		BBCD6FF92004F05D0053C65F /* AALine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALine.h; sourceTree = "<group>"; };
+		BBCD6FFA2004F05D0053C65F /* AADataLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADataLabels.h; sourceTree = "<group>"; };
+		BBCD6FFB2004F05D0053C65F /* AAPlotOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotOptions.h; sourceTree = "<group>"; };
+		BBCD6FFC2004F05D0053C65F /* AASpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASpline.m; sourceTree = "<group>"; };
+		BBCD6FFD2004F05D0053C65F /* AAItemStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAItemStyle.m; sourceTree = "<group>"; };
+		BBCD6FFE2004F05D0053C65F /* AAPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPie.m; sourceTree = "<group>"; };
+		BBCD6FFF2004F05D0053C65F /* AAYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAYAxis.h; sourceTree = "<group>"; };
+		BBCD70002004F05D0053C65F /* AASubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASubtitle.h; sourceTree = "<group>"; };
+		BBCD70012004F05D0053C65F /* AAPlotLinesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotLinesElement.h; sourceTree = "<group>"; };
+		BBCD70022004F05D0053C65F /* AAColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAColumn.h; sourceTree = "<group>"; };
+		BBCD70032004F05D0053C65F /* AAChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChart.m; sourceTree = "<group>"; };
+		BBCD70052004F05D0053C65F /* AAChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartView.m; sourceTree = "<group>"; };
+		BBCD70062004F05D0053C65F /* AAGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAGlobalMacro.h; sourceTree = "<group>"; };
+		BBCD70072004F05D0053C65F /* AAChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartModel.m; sourceTree = "<group>"; };
+		BBCD70082004F05D0053C65F /* AAJsonConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAJsonConverter.m; sourceTree = "<group>"; };
+		BBCD70092004F05D0053C65F /* AAOptionsConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptionsConstructor.h; sourceTree = "<group>"; };
+		BBCD700A2004F05D0053C65F /* AAChartKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartKit.h; sourceTree = "<group>"; };
+		BBCD700B2004F05D0053C65F /* AAChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartView.h; sourceTree = "<group>"; };
+		BBCD700C2004F05D0053C65F /* AAOptionsConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptionsConstructor.m; sourceTree = "<group>"; };
+		BBCD700D2004F05D0053C65F /* AAJsonConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAJsonConverter.h; sourceTree = "<group>"; };
+		BBCD700E2004F05D0053C65F /* AAChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBCD6FA92004F0070053C65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBCD6FA32004F0070053C65F = {
+			isa = PBXGroup;
+			children = (
+				BBCD6FC62004F05D0053C65F /* AAChartKitLib */,
+				BBCD6FAE2004F0070053C65F /* AAChatDemo */,
+				BBCD6FAD2004F0070053C65F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBCD6FAD2004F0070053C65F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD6FAC2004F0070053C65F /* AAChatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCD6FAE2004F0070053C65F /* AAChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD6FAF2004F0070053C65F /* AppDelegate.h */,
+				BBCD6FB02004F0070053C65F /* AppDelegate.m */,
+				BBCD6FB22004F0070053C65F /* ViewController.h */,
+				BBCD6FB32004F0070053C65F /* ViewController.m */,
+				BBCD6FC52004F0250053C65F /* PrefixHeader.pch */,
+				BBCD6FB52004F0070053C65F /* Main.storyboard */,
+				BBCD6FB82004F0070053C65F /* Assets.xcassets */,
+				BBCD6FBA2004F0070053C65F /* LaunchScreen.storyboard */,
+				BBCD6FBD2004F0070053C65F /* Info.plist */,
+				BBCD6FBE2004F0070053C65F /* main.m */,
+			);
+			path = AAChatDemo;
+			sourceTree = "<group>";
+		};
+		BBCD6FC62004F05D0053C65F /* AAChartKitLib */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD6FC72004F05D0053C65F /* AAJSFiles */,
+				BBCD6FCF2004F05D0053C65F /* AAOptionsModel */,
+				BBCD70042004F05D0053C65F /* AAChartConfiger */,
+			);
+			path = AAChartKitLib;
+			sourceTree = "<group>";
+		};
+		BBCD6FC72004F05D0053C65F /* AAJSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD6FC82004F05D0053C65F /* AAHighchartsMore.js */,
+				BBCD6FC92004F05D0053C65F /* AADrilldown.js */,
+				BBCD6FCA2004F05D0053C65F /* AAJQueryLibrary.js */,
+				BBCD6FCB2004F05D0053C65F /* AAHighchartsLibrary.js */,
+				BBCD6FCC2004F05D0053C65F /* AAFunnel.js */,
+				BBCD6FCD2004F05D0053C65F /* AAHighcharts-3d.js */,
+				BBCD6FCE2004F05D0053C65F /* AAChartView.html */,
+			);
+			path = AAJSFiles;
+			sourceTree = "<group>";
+		};
+		BBCD6FCF2004F05D0053C65F /* AAOptionsModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD6FD02004F05D0053C65F /* AAOptions.h */,
+				BBCD6FD12004F05D0053C65F /* AAArea.h */,
+				BBCD6FD22004F05D0053C65F /* AAAreaspline.m */,
+				BBCD6FD32004F05D0053C65F /* AATitle.h */,
+				BBCD6FD42004F05D0053C65F /* AALabels.m */,
+				BBCD6FD52004F05D0053C65F /* AAStyle.h */,
+				BBCD6FD62004F05D0053C65F /* AABar.h */,
+				BBCD6FD72004F05D0053C65F /* AASeries.m */,
+				BBCD6FD82004F05D0053C65F /* AAXAxis.m */,
+				BBCD6FD92004F05D0053C65F /* AAOptions3d.h */,
+				BBCD6FDA2004F05D0053C65F /* AAPlotOptions.m */,
+				BBCD6FDB2004F05D0053C65F /* AADataLabels.m */,
+				BBCD6FDC2004F05D0053C65F /* AALine.m */,
+				BBCD6FDD2004F05D0053C65F /* AAMarker.h */,
+				BBCD6FDE2004F05D0053C65F /* AALegend.h */,
+				BBCD6FDF2004F05D0053C65F /* AATooltip.m */,
+				BBCD6FE02004F05D0053C65F /* AAAnimation.h */,
+				BBCD6FE12004F05D0053C65F /* AASeriesElement.h */,
+				BBCD6FE22004F05D0053C65F /* AASubtitle.m */,
+				BBCD6FE32004F05D0053C65F /* AAYAxis.m */,
+				BBCD6FE42004F05D0053C65F /* AAPie.h */,
+				BBCD6FE52004F05D0053C65F /* AAItemStyle.h */,
+				BBCD6FE62004F05D0053C65F /* AASpline.h */,
+				BBCD6FE72004F05D0053C65F /* AAChart.h */,
+				BBCD6FE82004F05D0053C65F /* AAColumn.m */,
+				BBCD6FE92004F05D0053C65F /* AAPlotLinesElement.m */,
+				BBCD6FEA2004F05D0053C65F /* AAXAxis.h */,
+				BBCD6FEB2004F05D0053C65F /* AAOptions3d.m */,
+				BBCD6FEC2004F05D0053C65F /* AASeries.h */,
+				BBCD6FED2004F05D0053C65F /* AAStyle.m */,
+				BBCD6FEE2004F05D0053C65F /* AABar.m */,
+				BBCD6FEF2004F05D0053C65F /* AATitle.m */,
+				BBCD6FF02004F05D0053C65F /* AALabels.h */,
+				BBCD6FF12004F05D0053C65F /* AAAreaspline.h */,
+				BBCD6FF22004F05D0053C65F /* AAOptions.m */,
+				BBCD6FF32004F05D0053C65F /* AAArea.m */,
+				BBCD6FF42004F05D0053C65F /* AASeriesElement.m */,
+				BBCD6FF52004F05D0053C65F /* AAAnimation.m */,
+				BBCD6FF62004F05D0053C65F /* AALegend.m */,
+				BBCD6FF72004F05D0053C65F /* AATooltip.h */,
+				BBCD6FF82004F05D0053C65F /* AAMarker.m */,
+				BBCD6FF92004F05D0053C65F /* AALine.h */,
+				BBCD6FFA2004F05D0053C65F /* AADataLabels.h */,
+				BBCD6FFB2004F05D0053C65F /* AAPlotOptions.h */,
+				BBCD6FFC2004F05D0053C65F /* AASpline.m */,
+				BBCD6FFD2004F05D0053C65F /* AAItemStyle.m */,
+				BBCD6FFE2004F05D0053C65F /* AAPie.m */,
+				BBCD6FFF2004F05D0053C65F /* AAYAxis.h */,
+				BBCD70002004F05D0053C65F /* AASubtitle.h */,
+				BBCD70012004F05D0053C65F /* AAPlotLinesElement.h */,
+				BBCD70022004F05D0053C65F /* AAColumn.h */,
+				BBCD70032004F05D0053C65F /* AAChart.m */,
+			);
+			path = AAOptionsModel;
+			sourceTree = "<group>";
+		};
+		BBCD70042004F05D0053C65F /* AAChartConfiger */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD70052004F05D0053C65F /* AAChartView.m */,
+				BBCD70062004F05D0053C65F /* AAGlobalMacro.h */,
+				BBCD70072004F05D0053C65F /* AAChartModel.m */,
+				BBCD70082004F05D0053C65F /* AAJsonConverter.m */,
+				BBCD70092004F05D0053C65F /* AAOptionsConstructor.h */,
+				BBCD700A2004F05D0053C65F /* AAChartKit.h */,
+				BBCD700B2004F05D0053C65F /* AAChartView.h */,
+				BBCD700C2004F05D0053C65F /* AAOptionsConstructor.m */,
+				BBCD700D2004F05D0053C65F /* AAJsonConverter.h */,
+				BBCD700E2004F05D0053C65F /* AAChartModel.h */,
+			);
+			path = AAChartConfiger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBCD6FAB2004F0070053C65F /* AAChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCD6FC22004F0070053C65F /* Build configuration list for PBXNativeTarget "AAChatDemo" */;
+			buildPhases = (
+				BBCD6FA82004F0070053C65F /* Sources */,
+				BBCD6FA92004F0070053C65F /* Frameworks */,
+				BBCD6FAA2004F0070053C65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AAChatDemo;
+			productName = AAChatDemo;
+			productReference = BBCD6FAC2004F0070053C65F /* AAChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBCD6FA42004F0070053C65F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CongCong;
+				TargetAttributes = {
+					BBCD6FAB2004F0070053C65F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BBCD6FA72004F0070053C65F /* Build configuration list for PBXProject "AAChatDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBCD6FA32004F0070053C65F;
+			productRefGroup = BBCD6FAD2004F0070053C65F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBCD6FAB2004F0070053C65F /* AAChatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBCD6FAA2004F0070053C65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCD70132004F05D0053C65F /* AAFunnel.js in Resources */,
+				BBCD700F2004F05D0053C65F /* AAHighchartsMore.js in Resources */,
+				BBCD6FBC2004F0070053C65F /* LaunchScreen.storyboard in Resources */,
+				BBCD70122004F05D0053C65F /* AAHighchartsLibrary.js in Resources */,
+				BBCD70112004F05D0053C65F /* AAJQueryLibrary.js in Resources */,
+				BBCD6FB92004F0070053C65F /* Assets.xcassets in Resources */,
+				BBCD6FB72004F0070053C65F /* Main.storyboard in Resources */,
+				BBCD70102004F05D0053C65F /* AADrilldown.js in Resources */,
+				BBCD70152004F05D0053C65F /* AAChartView.html in Resources */,
+				BBCD70142004F05D0053C65F /* AAHighcharts-3d.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCD6FA82004F0070053C65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCD70322004F05D0053C65F /* AAJsonConverter.m in Sources */,
+				BBCD70272004F05D0053C65F /* AAArea.m in Sources */,
+				BBCD70292004F05D0053C65F /* AAAnimation.m in Sources */,
+				BBCD70192004F05D0053C65F /* AAXAxis.m in Sources */,
+				BBCD702B2004F05D0053C65F /* AAMarker.m in Sources */,
+				BBCD70252004F05D0053C65F /* AATitle.m in Sources */,
+				BBCD702F2004F05D0053C65F /* AAChart.m in Sources */,
+				BBCD6FB42004F0070053C65F /* ViewController.m in Sources */,
+				BBCD6FBF2004F0070053C65F /* main.m in Sources */,
+				BBCD702A2004F05D0053C65F /* AALegend.m in Sources */,
+				BBCD70332004F05D0053C65F /* AAOptionsConstructor.m in Sources */,
+				BBCD702C2004F05D0053C65F /* AASpline.m in Sources */,
+				BBCD70282004F05D0053C65F /* AASeriesElement.m in Sources */,
+				BBCD702E2004F05D0053C65F /* AAPie.m in Sources */,
+				BBCD6FB12004F0070053C65F /* AppDelegate.m in Sources */,
+				BBCD70172004F05D0053C65F /* AALabels.m in Sources */,
+				BBCD70232004F05D0053C65F /* AAStyle.m in Sources */,
+				BBCD701F2004F05D0053C65F /* AAYAxis.m in Sources */,
+				BBCD701E2004F05D0053C65F /* AASubtitle.m in Sources */,
+				BBCD70202004F05D0053C65F /* AAColumn.m in Sources */,
+				BBCD70182004F05D0053C65F /* AASeries.m in Sources */,
+				BBCD701B2004F05D0053C65F /* AADataLabels.m in Sources */,
+				BBCD70312004F05D0053C65F /* AAChartModel.m in Sources */,
+				BBCD70262004F05D0053C65F /* AAOptions.m in Sources */,
+				BBCD702D2004F05D0053C65F /* AAItemStyle.m in Sources */,
+				BBCD701D2004F05D0053C65F /* AATooltip.m in Sources */,
+				BBCD70162004F05D0053C65F /* AAAreaspline.m in Sources */,
+				BBCD701A2004F05D0053C65F /* AAPlotOptions.m in Sources */,
+				BBCD70302004F05D0053C65F /* AAChartView.m in Sources */,
+				BBCD70222004F05D0053C65F /* AAOptions3d.m in Sources */,
+				BBCD70242004F05D0053C65F /* AABar.m in Sources */,
+				BBCD70212004F05D0053C65F /* AAPlotLinesElement.m in Sources */,
+				BBCD701C2004F05D0053C65F /* AALine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBCD6FB52004F0070053C65F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCD6FB62004F0070053C65F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBCD6FBA2004F0070053C65F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCD6FBB2004F0070053C65F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBCD6FC02004F0070053C65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBCD6FC12004F0070053C65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCD6FC32004F0070053C65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AAChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilepops.TLL.AAChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBCD6FC42004F0070053C65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AAChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilepops.TLL.AAChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBCD6FA72004F0070053C65F /* Build configuration list for PBXProject "AAChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCD6FC02004F0070053C65F /* Debug */,
+				BBCD6FC12004F0070053C65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCD6FC22004F0070053C65F /* Build configuration list for PBXNativeTarget "AAChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCD6FC32004F0070053C65F /* Debug */,
+				BBCD6FC42004F0070053C65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBCD6FA42004F0070053C65F /* Project object */;
+}
